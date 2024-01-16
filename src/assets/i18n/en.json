@@ -1,0 +1,73 @@
+{
+    "welcome": {
+        "loading": "Revving engines . . ."
+    },
+    "home":{
+        "title":"DRIVEHUB HOME"
+    },
+    "perfil":{
+        "title":"MY CARS POSTS"
+    },
+    "login":{
+        "user":"User",
+        "pwd":"Password",
+        "noAccount":"Need an account?",
+        "submit":"Log In"
+    },
+    "register":{
+        "email":"Email",
+        "name":"Name",
+        "surname":"Surname",
+        "nickname":"Nickname",
+        "pwd":"Password",
+        "confirm":"Confirm password",
+        "login":"I want to Log In",
+        "submit":"Register"
+    },
+    "anunciodetail":{
+        "year": "Year"
+    },
+    "misanunciodetail":{
+        "create": "Create post",
+        "edit": "Edit post",
+        "save": "Save post",
+        "marca": "Brand",
+        "modelo": "Model",
+        "precio": "Price",
+        "year": "Year"
+    },
+    "preguntas": {
+        "title": "QUESTIONS",
+        "q1": "What can I see on the home page?",
+        "a1": "All posts created by all users in the program are displayed on the home page.",
+        "q2": "How can I create, modify, or delete a post?",
+        "a2": "Go to the menu on the left and redirect to the 'MY CARS POSTS' page. Unafortunately, we regret that these functions are currently not available in terms of functionality.",
+        "q3": "Can I log into my account without having to log in again if I haven't logged out?",
+        "a3": "Of course! The program is designed so that once you enter it you can do it again without entering your data again unless you decide to log out.",
+        "q4": "How can I know who was responsible for creating this program?",
+        "a4": "You can access general information about the program's author on the 'About Me' page."
+    },
+    "about":{
+        "title": "ABOUT ME",
+        "name": "Alejandro",
+        "surname": "Giráldez Guerrero",
+        "detail": "Cross-platform Application Developer"
+    },
+    "header":{
+        "user":{
+            "profile":"My Cars Posts",
+            "signout":"Log Out"
+        },
+        "languages":{
+            "es":"Spanish",
+            "en":"English"
+        }
+    },
+    "menu":{
+        "home":"HOME",
+        "profile":"MY CARS POSTS",
+        "preguntas":"QUESTIONS",
+        "signout":"LOG OUT",
+        "about":"ABOUT ME"
+    }
+}

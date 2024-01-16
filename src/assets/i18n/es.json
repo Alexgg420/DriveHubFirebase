@@ -1,0 +1,73 @@
+{
+    "welcome": {
+        "loading": "Rugiendo motores . . ."
+    },
+    "home":{
+        "title":"INICIO DE DRIVEHUB"
+    },
+    "perfil":{
+        "title":"ANUNCIOS PROPIOS"
+    },
+    "login":{
+        "user":"Usuario",
+        "pwd":"Contraseña",
+        "noAccount":"¿Necesitas una cuenta?",
+        "submit":"Acceder"
+    },
+    "register":{
+        "email":"Email",
+        "name":"Nombre",
+        "surname":"Apellidos",
+        "nickname":"Apodo",
+        "pwd":"Contraseña",
+        "confirm":"Confirmar contraseña",
+        "login":"Quiero iniciar sesión",
+        "submit":"Registrar"
+    },
+    "anunciodetail":{
+        "year": "Año"
+    },
+    "misanunciodetail":{
+        "create": "Crear anuncio",
+        "edit": "Editar anuncio",
+        "save": "Guardar anuncio",
+        "marca": "Marca",
+        "modelo": "Modelo",
+        "precio": "Precio",
+        "year": "Año"
+    },
+    "preguntas": {
+        "title": "PREGUNTAS FRECUENTES",
+        "q1": "¿Qué puedo ver en la página de inicio?",
+        "a1": "En la página de inicio se muestran todos los anuncios creados por todos los usuarios en el programa.",
+        "q2": "¿Cómo puedo crear, modificar, o eliminar un anuncio?",
+        "a2": "Dirígete al menu de la izquierda y redirígete a la página de 'Anuncios Propios'. Eso sí, lamentamos que actualmente estas funciones no se encuentran disponibles en cuanto a su funcionalidad.",
+        "q3": "¿Puedo entrar en mi cuenta sin tener que iniciar sesión de nuevo en caso de no haber cerrado sesión?",
+        "a3": "¡Claro! El programa está capacitado para que una vez entres en él puedas volver a hacerlo sin introducir de nuevo tus datos a menos que decidas cerrar sesión.",
+        "q4": "¿Cómo puedo saber quién se ha encargado de la creación de este programa?",
+        "a4": "Puedes acceder a la información general del autor del programa en la página de 'Acerca de Mí'."
+    },
+    "about":{
+        "title": "ACERCA DE MÍ",
+        "name": "Alejandro",
+        "surname": "Giráldez Guerrero",
+        "detail": "Desarrollador de Aplicaciones Multiplataforma"
+    },
+    "header":{
+        "user":{
+            "profile":"Anuncios propios",
+            "signout":"Cerrar sesión"
+        },
+        "languages":{
+            "es":"Español",
+            "en":"Inglés"
+        }
+    },
+    "menu":{
+        "home":"Inicio",
+        "profile":"Anuncios propios",
+        "preguntas":"Preguntas frecuentes",
+        "signout":"Cerrar sesión",
+        "about":"Acerca de mí"
+    }
+}

@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>{{'home.title' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="offset-header" [fullscreen]="false">
+  <div class="anun-panel">
+    <app-anuncio-info 
+      *ngFor="let anun of anuns$ | async" 
+      [anun]="anun" 
+      (onCardClicked)="onCardClicked(anun)" 
+      >
+    </app-anuncio-info>
+  </div>
+  <!--<ion-loading [isOpen]="loading$ | async" class="custom-loading"  message="Loading..." ></ion-loading>-->
+</ion-content>

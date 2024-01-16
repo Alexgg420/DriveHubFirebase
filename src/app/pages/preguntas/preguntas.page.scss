@@ -1,0 +1,24 @@
+/* faq.page.scss */
+
+ion-header {
+    ion-toolbar {
+      color: white;
+      font-family: 'BEBAS', sans-serif;
+    }
+  }
+  
+  ion-content {
+    ion-list {
+      ion-item-divider {
+        font-weight: bold;
+        margin: 10px;
+      }
+
+      ion-item {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 10px;
+      }
+    }
+  }
+  

@@ -1,0 +1,40 @@
+ion-card {
+    flex-direction: column;
+    overflow: hidden;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Estilos para el efecto de neón */
+.neon-border {
+    position: relative;
+}
+
+.neon-border::before,
+.neon-border::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(255, 0, 0); /* Color del neón (puedes ajustar esto) */
+    border-radius: 15px; /* Ajusta el radio del borde según tus preferencias */
+    opacity: 1; /* Establece la opacidad a 1 para que esté siempre presente */
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.titulo, .price {
+    margin: 0;
+    font-family: 'BEBAS', sans-serif;
+}
+
+ion-img {
+    width: fit-content;
+    margin-bottom: 20px;
+}

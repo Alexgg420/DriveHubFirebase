@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="primary" fill="clear" (click)="onCancel()">
+        <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      {{(mode=='New'?('anunciodetail.create' | translate):('anunciodetail.edit' | translate))}}
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button *ngIf="mode=='Edit'" color="primary" fill="clear" (click)="onDelete()">
+        <ion-icon slot="icon-only" name="trash-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()" (keyup.enter)="onSubmit()">
+    
+    <app-img-selectable></app-img-selectable>
+    <ion-img *ngIf="anun && anun.img" alt="Silhouette of a person's head" [src]="anun.img.url_medium"></ion-img>
+    <ion-item>
+      <ion-input label="{{('anunciodetail.marca' | translate)}}:" labelPlacement="start" formControlName="marca" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="{{('anunciodetail.modelo' | translate)}}:" labelPlacement="start" formControlName="modelo" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="{{('anunciodetail.precio' | translate)}}:" labelPlacement="start" formControlName="precio" type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="{{('anunciodetail.year' | translate)}}:" labelPlacement="start" formControlName="year" type="date"></ion-input>
+    </ion-item>
+  </form>
+</ion-content>
+<ion-footer>
+  <ion-button type="submit" [disabled]="!form.valid || !form.dirty" class="ion-padding" expand="full" (click)="onSubmit()">{{(mode=='New'?('anunciodetail.create' | translate):('anunciodetail.save' | translate))}}</ion-button>
+</ion-footer>

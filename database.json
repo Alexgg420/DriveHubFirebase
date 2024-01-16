@@ -1,0 +1,230 @@
+{
+  "profiles": [
+      {
+        "id": 0,
+        "name": "Alejandro",
+        "surname": "Giráldez Guerrero",
+        "edad": 19,
+        "local": "Aguadulce, Spain",
+        "img": "https://cdn-icons-png.flaticon.com/512/57/57117.png"
+      },
+      {
+        "id": 1,
+        "name": "Juan Manuel",
+        "surname": "Gutiérrez Mandoval",
+        "edad": 50,
+        "local": "Torremolinos, Spain",
+        "img": "https://cdn-icons-png.flaticon.com/512/57/57117.png"
+      },
+      {
+        "id": 2,
+        "name": "Juan Antonio",
+        "surname": "Gómez Sánchez",
+        "edad": 45,
+        "local": "Cártama, Spain",
+        "img": "https://cdn-icons-png.flaticon.com/512/57/57117.png"
+      },
+      {
+        "id": 3,
+        "name": "Marina",
+        "surname": "Ruiz Artico",
+        "edad": 30,
+        "local": "Málaga, Spain",
+        "img": "https://cdn-icons-png.flaticon.com/512/57/57117.png"
+      },
+      {
+        "id": 4,
+        "name": "Adrián",
+        "surname": "Perogil Sánchez",
+        "edad": 25,
+        "local": "Málaga, Spain",
+        "img": "https://cdn-icons-png.flaticon.com/512/57/57117.png"
+      },
+      {
+        "id": 5,
+        "name": "Carlos Jesús",
+        "surname": "Giráldez Expósito",
+        "edad": 52,
+        "local": "Aguadulce, Spain",
+        "img": "https://cdn-icons-png.flaticon.com/512/57/57117.png"
+      },
+      {
+        "id": 6,
+        "name": "María del Camen",
+        "surname": "Guerrero Martos",
+        "edad": 50,
+        "local": "Aguadulce, Spain",
+        "img": "https://cdn-icons-png.flaticon.com/512/57/57117.png"
+      },
+      {
+        "id": 7,
+        "name": "Miguel Ángel",
+        "surname": "Romera Poza",
+        "edad": 19,
+        "local": "Murcia, Spain",
+        "img": "https://cdn-icons-png.flaticon.com/512/57/57117.png"
+      },
+      {
+        "id": 8,
+        "name": "Miguel",
+        "surname": "Tajam Hernández",
+        "edad": 19,
+        "local": "Murcia, Spain",
+        "img": "https://cdn-icons-png.flaticon.com/512/57/57117.png"
+      }
+  ],
+  "homeanuncios": [
+      {
+        "id": 0,
+        "img": "https://www.diariomotor.com/imagenes/2018/11/audi-e-tron-gt-291118-018.jpg"
+      },
+      {
+        "id": 1,
+        "img": "https://img.remediosdigitales.com/4fb038/2018-chevrolet-camaro-zl1-1le-001p/1366_2000.jpg"
+      },
+      {
+        "id": 2,
+        "img": "https://d1gl66oyi6i593.cloudfront.net/wp-content/uploads/2022/05/subasta-ferrari-laferrari-aperta-2017.jpg"
+      },
+      {
+        "id": 3,
+        "img": "https://soymotor.com/sites/default/files/imagenes/noticia/ford-gt-2020-3-soymotor.jpg"
+      },
+      {
+        "id": 4,
+        "img": "https://noticias.coches.com/wp-content/uploads/2015/01/Acura-NSX-2016-02.jpg"
+      },
+      {
+        "id": 5,
+        "img": "https://static.motor.es/fotos-noticias/2020/06/lamborghini-urus-2021-202068379-1592419621_1.jpg"
+      },
+      {
+        "id": 6,
+        "img": "https://www.hibridosyelectricos.com/uploads/s1/39/64/77/2023021006500691220.jpeg"
+      },
+      {
+        "id": 7,
+        "img": "https://noticias.coches.com/wp-content/uploads/2023/01/Nissan-GT-R-2023-35.jpeg"
+      },
+      {
+        "id": 8,
+        "img": "https://www.diariomotor.com/imagenes/2019/01/toyota-supra-2019-051.jpg"
+      },
+      {
+        "id": 9,
+        "img": "https://cdn.motor1.com/images/mgl/vR7RQ/s1/volkswagen-golf-8-gti-clubsport-2021.jpg"
+      }
+  ],
+  "anuncios": [
+      {   
+        "id": 0,
+        "marca": "Audi",
+        "modelo": "e-Tron GT",
+        "year": 2021,
+        "precio": 110290,
+        "img": "https://www.diariomotor.com/imagenes/2018/11/audi-e-tron-gt-291118-018.jpg" 
+      },
+      {
+        "id": 1,
+        "marca": "Chevrolet",
+        "modelo": "Camaro ZL1",
+        "year": 2022,
+        "precio": 100000,
+        "img": "https://img.remediosdigitales.com/4fb038/2018-chevrolet-camaro-zl1-1le-001p/1366_2000.jpg" 
+      },
+      {   
+        "id": 2,
+        "marca": "Ferrari",
+        "modelo": "LaFerrari",
+        "year": 2016,
+        "precio": 3955900,
+        "img": "https://d1gl66oyi6i593.cloudfront.net/wp-content/uploads/2022/05/subasta-ferrari-laferrari-aperta-2017.jpg" 
+      },
+      {   
+        "id": 3,
+        "marca": "Ford",
+        "modelo": "GT",
+        "year": 2022,
+        "precio": 1668900,
+        "img": "https://soymotor.com/sites/default/files/imagenes/noticia/ford-gt-2020-3-soymotor.jpg" 
+      },
+      {   
+        "id": 4,
+        "marca": "Acura",
+        "modelo": "NSX",
+        "year": 2017,
+        "precio": 144500,
+        "img": "https://noticias.coches.com/wp-content/uploads/2015/01/Acura-NSX-2016-02.jpg" 
+      },
+      {   
+        "id": 5,
+        "marca": "Lamborghini",
+        "modelo": "Urus",
+        "year": 2018,
+        "precio": 533900,
+        "img": "https://static.motor.es/fotos-noticias/2020/06/lamborghini-urus-2021-202068379-1592419621_1.jpg" 
+      },
+      {   
+        "id": 6,
+        "marca": "Mercedes",
+        "modelo": "Maybach",
+        "year": 2023,
+        "precio": 269073,
+        "img": "https://www.hibridosyelectricos.com/uploads/s1/39/64/77/2023021006500691220.jpeg" 
+      },
+      {   
+        "id": 7,
+        "marca": "Nissan",
+        "modelo": "GT-R R35",
+        "year": 2023,
+        "precio": 117200,
+        "img": "https://noticias.coches.com/wp-content/uploads/2023/01/Nissan-GT-R-2023-35.jpeg" 
+      },
+      {   
+        "id": 8,
+        "marca": "Toyota",
+        "modelo": "Supra MK5",
+        "year": 2019,
+        "precio": 59550,
+        "img": "https://www.diariomotor.com/imagenes/2019/01/toyota-supra-2019-051.jpg" 
+      },
+      {   
+        "id": 9,
+        "marca": "Volkswagen",
+        "modelo": "Golf GTI Clubsport",
+        "year": 2021,
+        "precio": 53760,
+        "img": "https://cdn.motor1.com/images/mgl/vR7RQ/s1/volkswagen-golf-8-gti-clubsport-2021.jpg" 
+      }
+  ],
+  "assignments": [
+      {   
+        "homeanuncios_id": 0,
+        "anuncios_id": 0
+      },
+      {   
+        "homeanuncios_id": 1,
+        "anuncios_id": 1
+      },
+      {   
+        "homeanuncios_id": 2,
+        "anuncios_id": 2
+      },
+      {   
+        "homeanuncios_id": 3,
+        "anuncios_id": 3
+      },
+      {   
+        "homeanuncios_id": 4,
+        "anuncios_id": 4
+      },
+      {   
+        "homeanuncios_id": 5,
+        "anuncios_id": 5
+      },
+      {   
+        "homeanuncios_id": 6,
+        "anuncios_id": 6
+      }
+  ]
+}

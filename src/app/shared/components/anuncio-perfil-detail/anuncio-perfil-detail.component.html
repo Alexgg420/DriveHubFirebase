@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button color="primary" fill="clear" (click)="onCancel()">
+        <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button color="primary" fill="clear" (click)="onEdit()">
+        <ion-icon slot="icon-only" name="create-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-img *ngIf="!anun || !anun.img" src="https://noticias.coches.com/wp-content/uploads/2023/01/Nissan-GT-R-2023-35.jpeg"></ion-img>
+  <ion-img *ngIf="anun && anun.img" alt="Silhouette of a person's head" [src]="anun.img"></ion-img>
+  <div class="contenedor">
+    <div class="info">
+      <h1 class="nombre">{{anun?.marca}} {{anun?.modelo}}</h1>
+      <h1 class="precio">{{anun?.precio}}€</h1>
+    </div>
+    <h1 class="year">{{('anunciodetail.year' | translate)}}: {{anun?.year | transformDate}}</h1>
+  </div>
+</ion-content>

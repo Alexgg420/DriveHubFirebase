@@ -1,0 +1,48 @@
+<!-- faq.page.html -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ 'preguntas.title' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ng-container *ngFor="let faq of preguntas">
+      <ion-item-divider class="divider" (click)="toggleGroup(faq, '¿Qué puedo ver en la página de inicio?')">
+        <ion-item class="item" fill="outline">{{ 'preguntas.q1' | translate }}</ion-item>
+      </ion-item-divider>
+      <ng-container *ngIf="faq.expandedQuestion === '¿Qué puedo ver en la página de inicio?'">
+        <ion-item *ngFor="let question of faq.answer1" class="nested-item">
+          <ion-label>{{ 'preguntas.a1' | translate }}</ion-label>
+        </ion-item>
+      </ng-container>
+
+      <ion-item-divider class="divider" (click)="toggleGroup(faq, '¿Cómo puedo crear, modificar, o eliminar un anuncio?')">
+        <ion-item class="item" fill="outline">{{ 'preguntas.q2' | translate }}</ion-item>
+      </ion-item-divider>
+      <ng-container *ngIf="faq.expandedQuestion === '¿Cómo puedo crear, modificar, o eliminar un anuncio?'">
+        <ion-item *ngFor="let question of faq.answer2" class="nested-item">
+          <ion-label>{{ 'preguntas.a2' | translate }}</ion-label>
+        </ion-item>
+      </ng-container>
+
+      <ion-item-divider class="divider" (click)="toggleGroup(faq, '¿Puedo entrar en mi cuenta sin tener que iniciar sesión de nuevo en caso de no haber cerrado sesión?')">
+        <ion-item class="item" fill="outline">{{ 'preguntas.q3' | translate }}</ion-item>
+      </ion-item-divider>
+      <ng-container *ngIf="faq.expandedQuestion === '¿Puedo entrar en mi cuenta sin tener que iniciar sesión de nuevo en caso de no haber cerrado sesión?'">
+        <ion-item *ngFor="let question of faq.answer3" class="nested-item">
+          <ion-label>{{ 'preguntas.a3' | translate }}</ion-label>
+        </ion-item>
+      </ng-container>
+
+      <ion-item-divider class="divider" (click)="toggleGroup(faq, '¿Cómo puedo saber quién se ha encargado e la creación de este programa?')">
+        <ion-item class="item" fill="outline">{{ 'preguntas.q4' | translate }}</ion-item>
+      </ion-item-divider>
+      <ng-container *ngIf="faq.expandedQuestion === '¿Cómo puedo saber quién se ha encargado e la creación de este programa?'">
+        <ion-item *ngFor="let question of faq.answer4" class="nested-item">
+          <ion-label>{{ 'preguntas.a4' | translate }}</ion-label>
+        </ion-item>
+      </ng-container>
+    </ng-container>
+  </ion-list>
+</ion-content>

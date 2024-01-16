@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>{{'perfil.title' | translate}}</ion-title>
+    <ion-button slot="end" fill="outline" color="dark" aria-label="New Anuncio" (click)="onNewAnuncio()" class="ok">
+      <ion-icon slot="icon-only" color="danger"  name="add-outline" aria-hidden="true"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="offset-header" [fullscreen]="false">
+  <div class="anun-panel">
+    <app-anuncio-info 
+      *ngFor="let anun of anuns$ | async" 
+      [anun]="anun" 
+      (onCardClicked)="onCardClicked(anun)" 
+      >
+    </app-anuncio-info>
+  </div>
+  <!--<ion-loading [isOpen]="loading$ | async" class="custom-loading"  message="Loading..." ></ion-loading>-->
+</ion-content>

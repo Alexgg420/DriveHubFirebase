@@ -1,0 +1,19 @@
+.contenedor {
+    justify-content:center;
+    align-items: center;
+    font-family: 'BEBAS', sans-serif;
+    margin: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+ion-img {
+    width: auto;
+    margin-bottom: 20px;
+}

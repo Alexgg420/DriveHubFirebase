@@ -1,0 +1,20 @@
+<ion-content [fullscreen]="true">
+  
+  <div class="container">
+    <ion-card>
+      <ion-card-header>
+        <div class="logo">
+            <img alt="logo of drivehub" src="./../../../assets/imgs/logo_drivehub-removebg-preview.png" />
+        </div>
+        
+      </ion-card-header>
+      <ion-card-content>
+        <div class="ion-text-end">
+          <ion-button [routerLink]="['/register']" fill="clear" style="text-transform: none;">{{'login.noAccount' | translate}}</ion-button>
+        </div>
+        <app-login-form (onsubmit)="onLogin($event)"></app-login-form>
+
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

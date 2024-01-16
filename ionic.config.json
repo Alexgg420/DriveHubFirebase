@@ -1,0 +1,7 @@
+{
+  "name": "DriveHub",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
