@@ -21,6 +21,7 @@ import { MediaService } from './core/services/api/media.service';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { createTranslateLoader } from './core/services/custom-translate.service';
+import { environment } from 'src/environments/environment';
 
 export function MappingServiceFactory(
   backend:string){
@@ -142,8 +143,11 @@ export function httpTranslateLoader(http: HttpClient) {
         provide: MediaService,
         deps: ['backend', ApiService],
         useFactory: MediaServiceFactory,  
+      },
+      {
+        provide: 'firebase-config',
+        useValue: environment.firebaseConfig,
       }
-      
     ],
     bootstrap: [AppComponent],
   })

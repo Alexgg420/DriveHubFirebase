@@ -4,7 +4,14 @@
 
 export const environment = {
   production: false,
-  apiUrl: "http://localhost:1337/api"
+  firebaseConfig : {
+    apiKey: "AIzaSyA6PmjTQXevSc-GtWm21b8rAOBq9iKYxOw",
+    authDomain: "drivehub-firebase-data.firebaseapp.com",
+    projectId: "drivehub-firebase-data",
+    storageBucket: "drivehub-firebase-data.appspot.com",
+    messagingSenderId: "200584304403",
+    appId: "1:200584304403:web:00168478fc002d10eface6"
+  }
 };
 
 /*

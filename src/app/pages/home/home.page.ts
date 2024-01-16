@@ -9,6 +9,7 @@ import { dataURLtoBlob } from 'src/app/core/helpers/blob';
 import { MediaService } from 'src/app/core/services/api/media.service';
 import { AuthService } from 'src/app/core/services/api/auth.service';
 import { AnuncioDetailComponent } from 'src/app/shared/components/anuncio-detail/anuncio-detail.component';
+import { FirebaseService } from 'src/app/core/services/firebase.service';
 
 
 @Component({
@@ -32,9 +33,14 @@ export class HomePage implements OnInit {
     public auth:AuthService,
     public anuns:AnunciosService,
     private media:MediaService,
-    private modal:ModalController
+    private modal:ModalController,
+    private firebaseSvc: FirebaseService
   ) {
     
+  }
+
+  async newDoc(){
+    var id = await this.firebaseSvc.createDocument("Users", {name:"Alejandro", surname:"Giráldez Guerrero", edad:19, })
   }
 
   private loadAnun(page:number=0, refresher:any=null){
